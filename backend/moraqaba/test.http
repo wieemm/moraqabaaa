@@ -1,0 +1,12 @@
+### Add Role
+POST http://localhost:8080/roles/add
+Content-Type: application/json
+
+{
+  "name": "ADMIN"
+}
+
+###
+
+### Get All Roles
+GET http://localhost:8080/roles/all
